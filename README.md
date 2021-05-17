@@ -9,7 +9,6 @@ Add script to you page
 
 # How to use?
 
-## In browser
 Init plugin
 ```html
 <script>
@@ -17,7 +16,17 @@ Init plugin
     recipient: '<your-address>',
   })
 </script>
+```
 
+And add button
+
+```html
+<button
+  class="btn btn-primary js-waves-pay-button"
+  data-amount="<product-price>"
+  data-name="<product-name>">
+  My product
+</button>
 ```
 
 # All config parametrs
