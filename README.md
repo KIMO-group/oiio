@@ -52,6 +52,17 @@ You button selector, default .js-oiio-pay-button
 
 #### endpoit
 You endpoit url, if you need get success payment data, default ''
+If you specify enpdoint url, then upon a successful transaction, data in the format is transmitted to the url you specified
+```json
+{
+  "blockchain_response": {
+    "<transaction response>"
+  },
+  "product": "<product-name>",
+  "amount": "<amount>",
+  "client": "<client telegram or email>"
+}
+```
 
 #### debug
 debug mode, for testing in testnet, default false
