@@ -24,7 +24,7 @@ initOiioPayWidget({
 ```js
 
 {
-  selector: '.js-waves-pay-button',
+  selector: '.js-oiio-pay-button',
   endpoint: '',
   debug: false,
   node_url: '',
@@ -38,7 +38,7 @@ initOiioPayWidget({
 You wallet address, required parametr
 
 #### selector
-You button selector, default .js-waves-pay-button
+You button selector, default .js-oiio-pay-button
 
 #### endpoit
 You endpoit url, if you need get success payment data, default ''
