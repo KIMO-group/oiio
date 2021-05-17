@@ -22,7 +22,7 @@ And add button
 
 ```html
 <button
-  class="btn btn-primary js-waves-pay-button"
+  class="js-oiio-pay-button"
   data-amount="<product-price>"
   data-name="<product-name>">
   My product
