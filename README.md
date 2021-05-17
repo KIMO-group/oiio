@@ -2,7 +2,7 @@
 
 # How to install?
 
-Add script to you page from script
+Add script to you page
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kimo-group/oiio/oiio.js"></script>
 ```
@@ -11,11 +11,12 @@ Add script to you page from script
 
 ## In browser
 Init plugin
-```js
-
-initOiioPayWidget({
-  recipient: '<your-address>',
-})
+```html
+<script>
+  initOiioPayWidget({
+    recipient: '<your-address>',
+  })
+</script>
 
 ```
 
