@@ -4,7 +4,7 @@
 
 Add script to you page
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kimo-group/oiio/oiio.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kimo-group/oiio/oiio.min.js"></script>
 ```
 
 # How to use?
