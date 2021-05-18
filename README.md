@@ -2,14 +2,14 @@
 
 # How to install?
 
-Add script to you page
+Add the script to your page in a footer
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kimo-group/oiio/oiio.min.js"></script>
 ```
 
 # How to use?
 
-Init plugin
+Initialize the plugin
 ```html
 <script>
   initOiioPayWidget({
@@ -18,13 +18,14 @@ Init plugin
 </script>
 ```
 
-And add button
+Then add a pay button in the right place
 
 ```html
 <button
   class="js-oiio-pay-button"
   data-amount="<product-price>"
-  data-name="<product-name>">
+  data-name="<product-name>"
+>
   My product
 </button>
 ```
@@ -45,14 +46,14 @@ And add button
 ```
 
 #### recipient
-You wallet address, required parametr
+Your wallet address, required parameter
 
 #### selector
-You button selector, default .js-oiio-pay-button
+Your button selector, default .js-oiio-pay-button
 
 #### endpoit
-You endpoit url, if you need get success payment data, default ''
-If you specify enpdoint url, then upon a successful transaction, data in the format is transmitted to the url you specified
+Your endpoint url, if you need get success payment data, default ''  
+If you have added an endpoint url, the data will be sent there in the following form:
 ```json
 {
   "blockchain_response": {
@@ -65,7 +66,7 @@ If you specify enpdoint url, then upon a successful transaction, data in the for
 ```
 
 #### debug
-debug mode, for testing in testnet, default false
+Debug mode for testing in testnet, default false
 
 #### node_url
 Custom NODE URL, if you use custom node, fill in this field, default ''
